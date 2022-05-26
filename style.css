@@ -1,0 +1,80 @@
+.container-fluid {
+  padding: 3% 3%;
+}
+
+.element {
+  overflow: hidden;
+  text-align: center;
+  background-color: #E8F6EF;
+  height: 50rem;
+  width: auto;
+  position: relative;
+}
+
+.card {
+  background-color: white;
+  border-radius: 20px;
+  display: inline;
+  width: 23rem;
+}
+
+.image {
+  width: inherit;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.background-image {
+  width: 100%;
+}
+
+.main {
+width: 23rem;
+position:absolute;
+left: 37%;
+top:20%;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+border-radius: 20px;
+}
+.card-title{
+  font-weight: bold;
+  color: #091353;
+}
+.card-text{
+  color: #091353;
+
+}
+.card-body {
+  padding: 10%;
+  width: 23rem;
+  background-color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: #193498;
+  border-radius: 10px;
+  margin-top: 5%;
+}
+
+.plan {
+  margin-top: 15%;
+}
+
+@media only screen and (max-width: 600px) {
+.main{
+  top: 10%;
+  left: 12%;
+}
+.element{
+  height: 42rem;
+}
+.background-image{
+  width: auto;
+}
+}
